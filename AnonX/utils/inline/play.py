@@ -122,7 +122,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                        text="📡Join",
-                       url='https://t.me/LoveIsaslowPoison'),
+                       url='https://t.me/EarnWithRiyuX'),
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
@@ -154,7 +154,7 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                        text="📡Join",
-                       url='https://t.me/LoveIsaslowPoison'),
+                       url='https://t.me/EarnWithRiyuX'),
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
@@ -183,7 +183,7 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                        text="📡Join",
-                       url='https://t.me/LoveIsaslowPoison'),
+                       url='https://t.me/EarnWithRiyuX'),
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
@@ -210,7 +210,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         [
             InlineKeyboardButton(
                        text="📡Join",
-                       url='https://t.me/LoveIsaslowPoison'),
+                       url='https://t.me/EarnWithRiyuX'),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
@@ -313,7 +313,7 @@ close_keyboard = InlineKeyboardMarkup(
                 [
                     InlineKeyboardButton(
                        text="📡Join",
-                       url='https://t.me/the_Chatting_Hub'),
+                       url='https://t.me/EarnWithRiyuX'),
                     InlineKeyboardButton(
                         text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
                     )
@@ -347,7 +347,7 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                        text="📡Join",
-                       url='https://t.me/LoveIsaslowPoison'),
+                       url='https://t.me/EarnWithRiyuX'),
             InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
